@@ -1,0 +1,2524 @@
+Started GET "/" for ::1 at 2017-01-12 12:01:36 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  Rendered orders/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:     <th></th>
+    10:   </tr>
+    11: 
+    12:   <% @orders.each do |order| %>
+    13:       <tr>
+    14:         <td><%= order.credit_card_number %></td>
+    15:         <td><%= order.credit_card_expires_on %></td>
+  
+app/views/orders/index.html.erb:12:in `_app_views_orders_index_html_erb___1843474522296434827_70129484061740'
+Started GET "/" for ::1 at 2017-01-12 12:01:36 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9:     <th></th>
+    10:   </tr>
+    11: 
+    12:   <% @orders.each do |order| %>
+    13:       <tr>
+    14:         <td><%= order.credit_card_number %></td>
+    15:         <td><%= order.credit_card_expires_on %></td>
+  
+app/views/orders/index.html.erb:12:in `_app_views_orders_index_html_erb___1843474522296434827_70129454457300'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.8ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.8ms)
+Started GET "/" for ::1 at 2017-01-12 12:02:01 +0900
+Processing by OrdersController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant OrdersController::Order):
+  
+app/controllers/orders_controller.rb:5:in `index'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.0ms)
+Started GET "/" for ::1 at 2017-01-12 12:02:30 +0900
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.0.1) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0.1) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.2ms)
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateOrders (20170112030219)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170112030219"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-01-12 03:02:40 UTC], ["updated_at", 2017-01-12 03:02:40 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2017-01-12 12:02:45 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 465ms (Views: 454.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:02:47 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (34.4ms)
+  Rendered orders/new.html.erb within layouts/application (36.7ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `credit_card_number' for #<Order id: nil, created_at: nil, updated_at: nil>):
+    13: 
+    14:     <div class="field">
+    15:       <%= f.label :credit_card_number %>
+    16:       <%= f.text_field :credit_card_number %>
+    17:       <div id="credit_card_number_error"></div>
+    18:     </div>
+    19:     <div class="field">
+  
+app/views/orders/_form.html.erb:16:in `block in _app_views_orders__form_html_erb___3734368738050671206_70353136688800'
+app/views/orders/_form.html.erb:1:in `_app_views_orders__form_html_erb___3734368738050671206_70353136688800'
+app/views/orders/new.html.erb:3:in `_app_views_orders_new_html_erb__3499093148714138214_70353136879260'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", :environment]]
+DEPRECATION WARNING: Passing #original_exception is deprecated and has no effect. Exceptions will automatically capture the original exception. (called from load at /Users/jongwon/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateOrders (20170112030219)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "credit_card_number" varchar, "credit_card_expires_on" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170112030219"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-01-12 03:03:24 UTC], ["updated_at", 2017-01-12 03:03:24 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/orders/new" for ::1 at 2017-01-12 12:03:26 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (8.6ms)
+  Rendered orders/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 33ms (Views: 25.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:03:29 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-12 12:03:30 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:03:31 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.9ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:04:51 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b+LHxLljQfy0JMfq0mAGpSIV379Vu0Ekdu7u5kCrhwewtObn9BDK3yeqPfUkD5qt0CJestC7M8Blhsd/5nZUUw==", "order"=>{"credit_card_number"=>"4364208900437683", "credit_card_expires_on(1i)"=>"2021", "credit_card_expires_on(2i)"=>"6", "credit_card_expires_on(3i)"=>"1"}, "commit"=>"Create Order"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/orders_controller.rb:43:in `create'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.5ms)
+Started POST "/orders" for ::1 at 2017-01-12 12:09:20 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rnb77v/yZxH3tUWnqmAbyB8bKtEYptkO/fJ28xTTfxHcQKnY3fgYH0qRO3+PT/MNISJuuv6rnra6ESAC+Yk+Lg==", "order"=>{"credit_card_number"=>"4364208900437683", "credit_card_expires_on(1i)"=>"2021", "credit_card_expires_on(2i)"=>"6", "credit_card_expires_on(3i)"=>"1"}, "commit"=>"Create Order"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "4364208900437683"], ["credit_card_expires_on", Tue, 01 Jun 2021], ["created_at", 2017-01-12 03:09:20 UTC], ["updated_at", 2017-01-12 03:09:20 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/1
+Completed 302 Found in 14ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/orders/1" for ::1 at 2017-01-12 12:09:20 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:09:25 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:09:27 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:09:28 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1" for ::1 at 2017-01-12 12:09:29 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1/edit" for ::1 at 2017-01-12 12:09:30 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1" for ::1 at 2017-01-12 12:09:33 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-12 12:09:44 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-12 12:11:41 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:1: reserved word 'var'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2323355188159932518_70353153499060'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.6ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.5ms)
+Started GET "/" for ::1 at 2017-01-12 12:12:39 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 123ms (Views: 121.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/1" for ::1 at 2017-01-12 12:12:41 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1/edit" for ::1 at 2017-01-12 12:12:44 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.6ms)
+  Rendered orders/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/orders/1" for ::1 at 2017-01-12 12:12:55 +0900
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XjwGnJuMsesxNsdfCLciwIQqZRUvha0dMg/lxtAlw7w6y00ojQ7SImivhQD0HDzHcd6Inelhn1GCRToFWMD2uQ==", "order"=>{"credit_card_number"=>"5364208900437684", "credit_card_expires_on(1i)"=>"2022", "credit_card_expires_on(2i)"=>"6", "credit_card_expires_on(3i)"=>"1"}, "commit"=>"Update Order", "id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/orders_controller.rb:62:in `block in update'
+app/controllers/orders_controller.rb:61:in `update'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.0ms)
+Started PATCH "/orders/1" for ::1 at 2017-01-12 12:13:29 +0900
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XjwGnJuMsesxNsdfCLciwIQqZRUvha0dMg/lxtAlw7w6y00ojQ7SImivhQD0HDzHcd6Inelhn1GCRToFWMD2uQ==", "order"=>{"credit_card_number"=>"5364208900437684", "credit_card_expires_on(1i)"=>"2022", "credit_card_expires_on(2i)"=>"6", "credit_card_expires_on(3i)"=>"1"}, "commit"=>"Update Order", "id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "orders" SET "credit_card_number" = ?, "credit_card_expires_on" = ?, "updated_at" = ? WHERE "orders"."id" = ?[0m  [["credit_card_number", "5364208900437684"], ["credit_card_expires_on", Wed, 01 Jun 2022], ["updated_at", 2017-01-12 03:13:29 UTC], ["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/1
+Completed 302 Found in 15ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/orders/1" for ::1 at 2017-01-12 12:13:29 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1/edit" for ::1 at 2017-01-12 12:13:32 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.5ms)
+  Rendered orders/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:13:36 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:13:37 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.7ms)
+  Rendered orders/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:13:39 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:13:42 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:13:52 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f2BcNxnAaYD3zSW2DS9ClaURbhmyzi/AD7ygXe5VosOgNn0UVLPio2RD36n7QN6dVybvFDfOXSQc1InESIhxlw==", "order"=>{"credit_card_number"=>"0000000000000000", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "0000000000000000"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:13:52 UTC], ["updated_at", 2017-01-12 03:13:52 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 6ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/orders/2" for ::1 at 2017-01-12 12:13:52 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:13:55 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:14:12 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:32:32 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.5ms)
+  Rendered orders/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 163ms (Views: 161.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:32:32 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:32:36 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHGdwShqy7Lz/KZA51l5akepZoDd8rY1GTj43qSgqquGR8/3CmC0vE7Y2JjCdpGveZAi6zv/8Y1e264vSfrrlA==", "order"=>{"credit_card_number"=>"123", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "123"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:32:36 UTC], ["updated_at", 2017-01-12 03:32:36 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/orders/3" for ::1 at 2017-01-12 12:32:36 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:32:52 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:32:53 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/orders/3" for ::1 at 2017-01-12 12:32:55 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"j8V98CCwL/tKGzVPTiKKyNH82doXhEn897DgdERGIzcV8y/GArpQ9fc/S5drDWIN78WdsfGJDkSwU7aFqRxiCA==", "id"=>"3"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 3]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:32:55 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:32:58 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.7ms)
+  Rendered orders/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:35:29 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.3ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:36:29 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.8ms)
+  Rendered orders/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:38:36 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:38:41 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+jpl1z4i5BinhP0tfPWYpObYZUeZNAgOAJtBio+nFUBgDDfhHCibFhqgg/VZ2nBh2OEhLH85T7ZHeBd7Yv1Ufw==", "order"=>{"credit_card_number"=>"1", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:38:41 UTC], ["updated_at", 2017-01-12 03:38:41 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/4
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/4" for ::1 at 2017-01-12 12:38:41 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:38:44 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/4" for ::1 at 2017-01-12 12:38:46 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"v+rdf92t7UJxvW//a9reVhGWPC7ij7f/2y7ZD9suYw0l3I9J/6eSTMyZESdO9TaTL694RQSC8EeczY/+NnQiMg==", "id"=>"4"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 4]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:38:46 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:38:47 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:39:32 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/1" for ::1 at 2017-01-12 12:39:34 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"r3pwAq/p5s6AnqdsZLQ9ntS+DkSNTDBj6vmmK3Ek7kY1TCI0jeOZwD262bRBm9Vb6odKL2tBd9utGvDanH6veQ==", "id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:39:34 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:41:30 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/2/edit" for ::1 at 2017-01-12 12:41:32 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:41:35 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:41:38 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dcfwV249iYk2oWlDomBK3ldSwbeXIDMi5QG/xoqbKdnv8aJhTDf2h4uFF5uHT6IbaWuF3HEtdJqi4uk3Z8Fo5g==", "order"=>{"credit_card_number"=>"1", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:41:38 UTC], ["updated_at", 2017-01-12 03:41:38 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/5
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/orders/5" for ::1 at 2017-01-12 12:41:38 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/5/edit" for ::1 at 2017-01-12 12:41:39 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:41:40 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/orders/5" for ::1 at 2017-01-12 12:41:43 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YIq4X2ZvvzpIYctU3E8n0gqqEbbQ5YAur9sDy2H2mpf6vOppRGXANPVFtYz5YM8XNJNV3Tbox5boOFU6jKzbqA==", "id"=>"5"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 5]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:41:43 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin" for ::1 at 2017-01-12 12:42:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (9.6ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.9ms)
+Started GET "/application.js" for ::1 at 2017-01-12 12:42:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.6ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.2ms)
+Started GET "/" for ::1 at 2017-01-12 12:49:11 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 65ms (Views: 61.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:49:14 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:49:17 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eUm91ZQVvLXX9IikJE/byNgJFe8fYq7eFctnrOWXbpzjf+/jth/Du2rQ9nwBYDMN5jBRhPlv6WZSKDFdCM0vow==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:49:17 UTC], ["updated_at", 2017-01-12 03:49:17 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/6
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/6" for ::1 at 2017-01-12 12:49:17 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:49:19 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eUm91ZQVvLXX9IikJE/byNgJFe8fYq7eFctnrOWXbpzjf+/jth/Du2rQ9nwBYDMN5jBRhPlv6WZSKDFdCM0vow==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:49:19 UTC], ["updated_at", 2017-01-12 03:49:19 UTC]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/7
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/orders/7" for ::1 at 2017-01-12 12:49:19 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-12 12:49:22 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/6" for ::1 at 2017-01-12 12:49:24 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UsPXUBA6PXLXPRLv8bHfWXOON/phOpjJe86t3BwrVQLI9YVmMjBCfGoZbDfUnjecTbdzkYc333E8Lfst8XEUPQ==", "id"=>"6"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 6]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:49:24 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/7" for ::1 at 2017-01-12 12:49:24 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QmjySGsnwni6Psqbxg/3IVy2deEgV0WG+D9QM4t3xJnYXqB+SS29dgcatEPjIB/kYo8xisZaAj6/3AbCZi2Fpg==", "id"=>"7"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 7]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:49:24 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:49:25 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.7ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:49:32 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:49:33 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:49:38 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wtJ+/nJJdo6f/WczqLHxmTKXEv+8MiqU7t7u4qlRYgBY5CzIUEMJgCLZGeuNnhlcDK5WlFo/bSypPbgTRAsjPw==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:49:38 UTC], ["updated_at", 2017-01-12 03:49:38 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/8
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/orders/8" for ::1 at 2017-01-12 12:49:38 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/8/edit" for ::1 at 2017-01-12 12:49:39 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.9ms)
+  Rendered orders/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:49:40 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:49:42 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.7ms)
+  Rendered orders/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:50:47 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 28ms (Views: 20.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:50:52 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KVu1YoOmjHe+G8HJxJsFywPgZkBEEfeIW6UyCq/ZjdOzbedUoazzeQM/vxHhtO0OPdkiK6IcsDAcRmT7QoPM7A==", "order"=>{"credit_card_number"=>"123", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "123"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:50:52 UTC], ["updated_at", 2017-01-12 03:50:52 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/9
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/9" for ::1 at 2017-01-12 12:50:52 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:50:56 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KVu1YoOmjHe+G8HJxJsFywPgZkBEEfeIW6UyCq/ZjdOzbedUoazzeQM/vxHhtO0OPdkiK6IcsDAcRmT7QoPM7A==", "order"=>{"credit_card_number"=>"123", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "123"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:50:56 UTC], ["updated_at", 2017-01-12 03:50:56 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/10
+Completed 302 Found in 5ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/orders/10" for ::1 at 2017-01-12 12:50:56 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:51:01 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.9ms)
+  Rendered orders/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:51:30 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:51:31 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/orders/9" for ::1 at 2017-01-12 12:51:32 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/uqY9ts1eyhvoOO2bBDA1Me1zbp5j9UthLQQNE0JBrFk3MrA+T8EJtKEnW5JPygR+YyJ0Z+CkpXDV0bFoFNHjg==", "id"=>"9"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 9]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:51:32 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/10" for ::1 at 2017-01-12 12:51:34 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3hm8Q1Isq9XcCvuG8S5bvnyYb0aYn+MxyMdwhslBXnlEL+51cCbU22EuhV7UAbN7QqErLX6SpImPJCZ3JBsfRg==", "id"=>"10"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 10]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:51:34 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/8/edit" for ::1 at 2017-01-12 12:51:35 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.5ms)
+  Rendered orders/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/orders/8" for ::1 at 2017-01-12 12:51:37 +0900
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wnQEwBu2QbEmL9F0yIRge6v8rz14KHvuP+TGhOeIir9YQlb2Obw+v5sLr6ztq4i+lcXrVp4lPFZ4B5B1CtLLgA==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Update Order", "id"=>"8"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/8
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/8" for ::1 at 2017-01-12 12:51:37 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:51:44 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 12:55:21 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:55:22 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.7ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:55:30 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uV+6lbsxHLQPmGkSeaw8LovCFUYvTKhUObhzT1ICTA8jaeijmTtjurK8F8pcg9TrtftRLclB7+x+WyW+v1gNMA==", "order"=>{"credit_card_number"=>"123", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "123"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:55:30 UTC], ["updated_at", 2017-01-12 03:55:30 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/11
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/orders/11" for ::1 at 2017-01-12 12:55:30 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:55:54 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uV+6lbsxHLQPmGkSeaw8LovCFUYvTKhUObhzT1ICTA8jaeijmTtjurK8F8pcg9TrtftRLclB7+x+WyW+v1gNMA==", "order"=>{"credit_card_number"=>"12333333", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12333333"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:55:54 UTC], ["updated_at", 2017-01-12 03:55:54 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/12
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/orders/12" for ::1 at 2017-01-12 12:55:54 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:55:57 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.9ms)
+  Rendered orders/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:56:19 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.5ms)
+  Rendered orders/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:58:45 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.7ms)
+  Rendered orders/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 28ms (Views: 19.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:58:48 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CW5pxh80t0Ly2Rs4KFr7I04334FPkpbvg0dXljTEOHmTWDvwPT7ITE/9ZeANdRPmcA6b6qmf0VfEpAFn2Z55Rg==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:58:48 UTC], ["updated_at", 2017-01-12 03:58:48 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/13
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/13" for ::1 at 2017-01-12 12:58:48 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 12:58:59 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 12:59:03 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ftLSIL5bfu8rL+XxYIF+W9LmqwvjCuP4NqfcuQqSVZ3k5IAWnFEB4ZYLmylFrpae7N/vYAUHpEBxRIpI58gUog==", "order"=>{"credit_card_number"=>"1231434", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1231434"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 03:59:03 UTC], ["updated_at", 2017-01-12 03:59:03 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/14
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/orders/14" for ::1 at 2017-01-12 12:59:03 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:00:00 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:00:07 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:00:10 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vd2D94rt1zJAYoE5lADKqLxSLtvsDAHgkGc5eq2N+Ikn69HBqOeoPP1G/+GxLyJtgmtqsAoBRljXhG+LQNe5tg==", "order"=>{"credit_card_number"=>"213213", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "213213"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:00:10 UTC], ["updated_at", 2017-01-12 04:00:10 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/15
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/15" for ::1 at 2017-01-12 13:00:10 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/15/edit" for ::1 at 2017-01-12 13:00:12 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.5ms)
+  Rendered orders/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:00:14 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:00:15 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/14" for ::1 at 2017-01-12 13:00:18 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/2" for ::1 at 2017-01-12 13:00:21 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PkzlBN6A8MUhNdzLAiSXI4IWXzOhzAbnoov0pCd6Cnukercy/IqPy5wRohMnC3/mvC8bWEfBQV/laKJVyiBLRA==", "id"=>"2"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 2]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:00:21 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/8" for ::1 at 2017-01-12 13:00:22 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5hSlpDR6BIxf/laP3uZM2UVThcjh6quWLWeA27KKlfZ8IveSFnB7guLaKFf7yaQce2rBowfn7C5qhNYqX9DUyQ==", "id"=>"8"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:00:22 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:02:10 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 67ms (Views: 64.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:02:11 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:02:16 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1ChsgvmeVODZNtnCGA498yodSLGPEBb5fgyKcizRoddOHj6025Qr7mQSpxo9IdU2FCQM2mkdUUE579yDwYvg6A==", "order"=>{"credit_card_number"=>"1232534534534534", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1232534534534534"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:02:16 UTC], ["updated_at", 2017-01-12 04:02:16 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/16
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/16" for ::1 at 2017-01-12 13:02:16 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16/edit" for ::1 at 2017-01-12 13:02:17 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/orders/16" for ::1 at 2017-01-12 13:02:18 +0900
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+qVht9GJN3Q3Kalg8ilRAJ7CMqzr95/hsf7kD+XceTNgkzOB84NIeooN17jXBrnFoPt2xw362Fn2HbL+CIY4DA==", "order"=>{"credit_card_number"=>"1232534534534534", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Update Order", "id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/16
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16" for ::1 at 2017-01-12 13:02:18 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16/edit" for ::1 at 2017-01-12 13:02:20 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16/edit" for ::1 at 2017-01-12 13:02:25 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.2ms)
+  Rendered orders/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/orders/16" for ::1 at 2017-01-12 13:02:26 +0900
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x3D9H40rEIGqY80LSF+mlVF8zZ+ZAkOer8jTYmBUYgJdRq8pryFvjxdHs9NtcE5Qb0WJ9H8PBCboK4WTjQ4jPQ==", "order"=>{"credit_card_number"=>"1232534534534534", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Update Order", "id"=>"16"}
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/16
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/orders/16" for ::1 at 2017-01-12 13:02:26 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16/edit" for ::1 at 2017-01-12 13:02:27 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.5ms)
+  Rendered orders/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16/edit" for ::1 at 2017-01-12 13:03:33 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.4ms)
+  Rendered orders/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/orders/16" for ::1 at 2017-01-12 13:03:38 +0900
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vPEvaTwPgV99jkMY1CHGZgLAhY7AUUzkF4e70Srvr6Emx31fHgX+UcCqPcDxDi6jPPnB5SZcC1xQZO0gx7Xung==", "order"=>{"credit_card_number"=>"1232534534534534", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Update Order", "id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/16
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16" for ::1 at 2017-01-12 13:03:38 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16/edit" for ::1 at 2017-01-12 13:03:39 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/16" for ::1 at 2017-01-12 13:03:40 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:03:41 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:03:42 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/11" for ::1 at 2017-01-12 13:03:43 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IrAq2JBueDhfP6QqygY31x1MMpmw11XwyUIY2lUr/UG4hnjusmQHNuIb2vLvKd8SI3V28lbaEkiOoU4ruHG8fg==", "id"=>"11"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 11]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:03:43 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/13" for ::1 at 2017-01-12 13:03:45 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:03:46 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:03:47 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.2ms)
+  Rendered orders/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:03:49 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"idDTOVr+wBwcRJwH4om5v/4XbZYB5S1JlRqT2MZVUANWhvIaF41LP4/KZhgU5iW3DCDsm4TlX62GcrpBYIiDVw==", "order"=>{"credit_card_number"=>"1", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:03:49 UTC], ["updated_at", 2017-01-12 04:03:49 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/17
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/17" for ::1 at 2017-01-12 13:03:49 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:03:56 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.5ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:04:13 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:04:14 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:04:28 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (9.6ms)
+Started GET "/orders" for ::1 at 2017-01-12 13:04:29 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 412ms (Views: 407.9ms | ActiveRecord: 0.5ms)
+
+
+Completed 200 OK in 87ms (Views: 84.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:04:31 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (16.6ms)
+  Rendered orders/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:04:33 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hRxTCl1/+IPLhYcxMrkLLgWxmGV42cSJnbL1j1ZkPKMfKgE8f3WHjXah+ekXluPrO4jcDp7UgzHaUaN+uz59nA==", "order"=>{"credit_card_number"=>"1", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:04:33 UTC], ["updated_at", 2017-01-12 04:04:33 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/18
+Completed 302 Found in 8ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/18" for ::1 at 2017-01-12 13:04:33 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 27.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:06:38 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (5.2ms)
+  Rendered orders/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:09:36 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:09:45 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:09:47 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"//OO3jMv5NgLY3ZSmXrzxL8GVqrU1QWaNJJ99iwpCrplxdzoESWb1rZHCIq8VRsBgT8SwTLYQiJzcSsHwXNLhQ==", "order"=>{"credit_card_number"=>"", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", ""], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:09:47 UTC], ["updated_at", 2017-01-12 04:09:47 UTC]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/19
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/orders/19" for ::1 at 2017-01-12 13:09:47 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:17:21 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 80ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:17:23 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6fIZC6xsUmUPKT6242l5WOLNa1ETXn4BRjQRu7TYBsFzxEs9jmYta7INQG7GRpGd3PQvOvVTObkB10dKWYJH/g==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:17:23 UTC], ["updated_at", 2017-01-12 04:17:23 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/20
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/20" for ::1 at 2017-01-12 13:17:23 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:17:26 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/13" for ::1 at 2017-01-12 13:17:27 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/13" for ::1 at 2017-01-12 13:17:29 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/13/edit" for ::1 at 2017-01-12 13:17:30 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:17:31 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:17:32 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/12/edit" for ::1 at 2017-01-12 13:17:33 +0900
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/12" for ::1 at 2017-01-12 13:17:35 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UGXvRvrOhpEVVxeeHsllp2JtwADZIoJRv1UZzg6oyILKU71w2MT5n6hzaUY75o1iXFSEaz8vxen4tk8/4/KJvQ==", "id"=>"12"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 12]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:17:35 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:17:36 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:17:38 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h+79Wx/6fagfIn/Tlr0tYa63Mzaz/sDEveD6IX1aECQd2K9tPfACpqIGAQuzksWkkI53XVXzh3z6A6zQkABRGw==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:17:38 UTC], ["updated_at", 2017-01-12 04:17:38 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/21
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/orders/21" for ::1 at 2017-01-12 13:17:38 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:17:39 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:18:43 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:18:45 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:18:48 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RBFc+8yWfs48zjH3GBQe4KOMsAN+Y0yHHvn6qDXCWafeJw7N7pwBwIHqTy89O/YlnbX0aJhuCz9ZGqxZ2JgYmA==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:18:48 UTC], ["updated_at", 2017-01-12 04:18:48 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/22
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/22" for ::1 at 2017-01-12 13:18:48 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:18:51 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RBFc+8yWfs48zjH3GBQe4KOMsAN+Y0yHHvn6qDXCWafeJw7N7pwBwIHqTy89O/YlnbX0aJhuCz9ZGqxZ2JgYmA==", "order"=>{"credit_card_number"=>"12122", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12122"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:18:51 UTC], ["updated_at", 2017-01-12 04:18:51 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/23
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/23" for ::1 at 2017-01-12 13:18:51 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:18:52 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:18:53 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/orders/13" for ::1 at 2017-01-12 13:18:57 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VX8wkAFSLLuaRmYkro5bgs81DijMEGUG7ygfFYSD3YbPSWKmI1hTtSdiGPyLobNH8QxKQyodIr6oy0nkadmcuQ==", "id"=>"13"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 13]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 5ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:18:57 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/orders/14" for ::1 at 2017-01-12 13:18:57 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QtgLmAVUfK6K0gUnzSIiiN2GCybJ4T2ilzybFTSIHCDY7lmuJ14DoDf2e//oDcpN479PTS/sehrQ383k2dJdHw==", "id"=>"14"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 14]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:18:57 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/orders/15" for ::1 at 2017-01-12 13:18:57 +0900
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"jglPOklVh4CEjE8Zpr3JE6ir2b3+NoBsMpEIWanGm7wUPx0Ma1/4jjmoMcGDkiHWlpKd1hg7x9R1cl6oRJzagw==", "id"=>"15"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 15]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 4ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:18:57 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:19:56 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:19:58 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:20:01 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2017-01-12 13:20:05 +0900
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:20:09 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:20:15 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OlTpHOUOMhPz8DOzSIShTogJyDnXk2EJkyzP5n7R3QCgYrsqxwRNHU7UTWttq0mLtjCMUjGeJrHUz5kXk4ucPw==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:20:15 UTC], ["updated_at", 2017-01-12 04:20:15 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/24
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/24" for ::1 at 2017-01-12 13:20:15 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:21:44 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:21:52 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.3ms)
+  Rendered orders/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:21:59 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (8.3ms)
+  Rendered orders/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:22:08 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gG+gj8PQ130w+nOYNatojZh9p0i0hE6CbQcUT2KjZVMaWfK54dqoc43eDUAQhIBIpkTjI1KJCToq5EK+j/kkbA==", "order"=>{"credit_card_number"=>"3232", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "3232"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:22:08 UTC], ["updated_at", 2017-01-12 04:22:08 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/25
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/25" for ::1 at 2017-01-12 13:22:08 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:29:27 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.8ms)
+  Rendered orders/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 66ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:29:31 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FeeZsDFAMYMQwYp9ZFINtn863dFzygW+XB6id9o1NUKP0cuGE0pOja3l9KVBfeVzQQOZupXHQgYb/fSGN290fQ==", "order"=>{"credit_card_number"=>"1212", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1212"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:29:31 UTC], ["updated_at", 2017-01-12 04:29:31 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/26
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/orders/26" for ::1 at 2017-01-12 13:29:31 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:29:56 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:35:46 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.6ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:35:53 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.5ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:35:57 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ElYh7RakyYglTFa/Ty6fYOQsyTLrSQTRL1eEiK+KuT+IYHPbNK62hphoKGdqAXel2hWNWQ1EQ2lotNJ5QtD4AA==", "order"=>{"credit_card_number"=>"12", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:35:57 UTC], ["updated_at", 2017-01-12 04:35:57 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/27
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/orders/27" for ::1 at 2017-01-12 13:35:57 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:35:59 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.5ms)
+  Rendered orders/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:36:23 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u0QHSreKn85DBO26/PPxJLRi5CwcMx2W/WtAYn123wchclV8lYDgwP4gk2LZ3BnhilugR/o+Wi66iBaTkCyeOA==", "order"=>{"credit_card_number"=>"0000000000000000", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "0000000000000000"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:36:23 UTC], ["updated_at", 2017-01-12 04:36:23 UTC]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/28
+Completed 302 Found in 5ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders/28" for ::1 at 2017-01-12 13:36:23 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:37:18 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:37:20 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8Uw62QYeoKLbzTM5GJxReqjyB68P+/u0iwVX4wvmTBVremjvJBTfrGbpTeE9s7m/lstDxOn2vAzM5gES5rwNKg==", "order"=>{"credit_card_number"=>"1221", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "1221"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:37:20 UTC], ["updated_at", 2017-01-12 04:37:20 UTC]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/29
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/orders/29" for ::1 at 2017-01-12 13:37:20 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:37:24 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8Uw62QYeoKLbzTM5GJxReqjyB68P+/u0iwVX4wvmTBVremjvJBTfrGbpTeE9s7m/lstDxOn2vAzM5gES5rwNKg==", "order"=>{"credit_card_number"=>"122112", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "122112"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:37:24 UTC], ["updated_at", 2017-01-12 04:37:24 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/30
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/30" for ::1 at 2017-01-12 13:37:24 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:38:30 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.6ms)
+  Rendered orders/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:38:48 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.2ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:45:59 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:46:12 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.3ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:46:21 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:46:25 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:46:44 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.9ms)
+  Rendered orders/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:46:48 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.2ms)
+  Rendered orders/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:46:56 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.8ms)
+  Rendered orders/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:47:01 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.1ms)
+  Rendered orders/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:47:06 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.9ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:47:09 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3nix7ynFWkhpWvWdjZ7yJEQphAE1h8VIiag/EyZmDb9ETuPZC88lRtR+i0WosRrhehDAatOKgvDOS2niyzxMgA==", "order"=>{"credit_card_number"=>"122121", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "122121"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:47:09 UTC], ["updated_at", 2017-01-12 04:47:09 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/31
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/31" for ::1 at 2017-01-12 13:47:09 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:47:45 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.5ms)
+  Rendered orders/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 71ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:47:48 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bcHTWxxQIinr5V3xGjBKFMYJfquRgGZI9vOUO3/thQT394FtPlpdJ1bBIyk/H6LR+DA6wHeNIfCxEMLKkrfEOw==", "order"=>{"credit_card_number"=>"12321321", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "12321321"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:47:48 UTC], ["updated_at", 2017-01-12 04:47:48 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/32
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/32" for ::1 at 2017-01-12 13:47:48 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:47:54 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.9ms)
+  Rendered orders/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:48:01 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.6ms)
+  Rendered orders/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:48:05 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gWnLmBgoMQuczz5xd5YG7nh1cc4oQ7XpRVjs+9anVqUbX5muOiJOBSHrQKlSue4rRkw1pc5O8lECu7oKO/0Xmg==", "order"=>{"credit_card_number"=>"213213123", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "213213123"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:48:05 UTC], ["updated_at", 2017-01-12 04:48:05 UTC]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/33
+Completed 302 Found in 5ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/orders/33" for ::1 at 2017-01-12 13:48:05 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:48:13 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.2ms)
+  Rendered orders/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:48:17 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GcCBoKj91lUsTFrSBEY78ErhMTk4n54W1PpEOcpBELCD9tOWivepW5FoJAohadM1dNh1Ut6S2a6TGRLIJxtRjw==", "order"=>{"credit_card_number"=>"13123123", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "13123123"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:48:17 UTC], ["updated_at", 2017-01-12 04:48:17 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/34
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/orders/34" for ::1 at 2017-01-12 13:48:17 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 34], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:48:19 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.2ms)
+  Rendered orders/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:48:25 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:48:25 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f8jdm74UGDBFEmp7lEOOalNpPBD1faxk8B0DzXagEEPl/o+tnB5nPvg2FKOxbGavbVB4exNw69y3/lU8m/pRfA==", "order"=>{"credit_card_number"=>"", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", ""], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:48:25 UTC], ["updated_at", 2017-01-12 04:48:25 UTC]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/35
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/orders/35" for ::1 at 2017-01-12 13:48:25 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 35], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 13:48:41 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (2.6ms)
+  Rendered orders/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 67ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2017-01-12 13:48:44 +0900
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZRGjrW7F6bn4PElLuNhAw+Ueg2V20mLXEA5f0/VOQOT/J/GbTM+Wt0UYN5Od96gG2yfHDpDfJW9X7QkiGBQB2w==", "order"=>{"credit_card_number"=>"123213", "credit_card_expires_on(1i)"=>"2017", "credit_card_expires_on(2i)"=>"1", "credit_card_expires_on(3i)"=>"12"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("credit_card_number", "credit_card_expires_on", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["credit_card_number", "123213"], ["credit_card_expires_on", Thu, 12 Jan 2017], ["created_at", 2017-01-12 04:48:44 UTC], ["updated_at", 2017-01-12 04:48:44 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders/36
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/36" for ::1 at 2017-01-12 13:48:44 +0900
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 14:10:10 +0900
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (3.4ms)
+  Rendered orders/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2017-01-12 14:40:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (24.1ms)
+  Rendered orders/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 278ms (Views: 269.4ms | ActiveRecord: 0.6ms)
+
+
