@@ -1,6 +1,8 @@
 # winterails
 winter vacation rails study
+
 js & rails
+
 1.coffeescript
 http://railscasts.com/episodes/267-coffeescript-basics
 
@@ -22,7 +24,9 @@ http://railscasts.com/episodes/405-angularjs
 
 7.authorization with cancan
 http://railscasts.com/episodes/192-authorization-with-cancan
+
 ------------------------------------------------------------------------------------------------------------------------
+
 postgresql
 8.nested model form
 http://railscasts.com/episodes/196-nested-model-form-revised
