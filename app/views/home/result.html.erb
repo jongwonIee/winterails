@@ -1,0 +1,10 @@
+<h1>총 <%=@posts.count%> 건의 검색결과</h1>
+    <% @posts.each do |p| %>
+        <h2>Title</h2>
+            <%=p.title%>
+        <h2>Content</h2>
+            <%=p.content%>
+        <h2>created_at</h2>
+            <%=p.created_at%>
+        <hr>
+    <%end%>

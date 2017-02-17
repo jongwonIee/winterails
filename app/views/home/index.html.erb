@@ -1,0 +1,25 @@
+<%= form_tag "/home/write" do%>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Title</label>
+    <input type="text" name="title" class="form-control" id="exampleInputPassword1" placeholder="Title">
+  </div>
+    <label for="exampleInputPassword1">Content</label>
+    <textarea name="content" class="form-control" rows="5" id="content" placeholder="Content"></textarea>
+  <button type="submit" class="btn btn-default"style="margin-top:30px; margin-bottom:30px;">작성</button>
+<%end%>
+
+<%= form_tag "/home/result", :method => :get do %>
+    <input type="text" name="search">
+    <button type ="submit">검색</button>
+<%end%>
+
+<h1>게시판</h1>
+    <% @posts.each do |p| %>
+        <h2>Title</h2>
+            <%=p.title%>
+        <h2>Content</h2>
+            <%=p.content%>
+        <h2>created_at</h2>
+            <%=p.created_at%>
+        <hr>
+    <%end%>
