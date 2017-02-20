@@ -1,0 +1,1 @@
+{"klass":"Taps::Pull","database_url":"postgres://pw486@localhost/app_development","remote_url":"http://pw486:secret@localhost:3000","session_uri":"/sessions/3636257150","stream_state":{},"completed_tables":[],"table_filter":null,"remote_tables_info":{"schema_migrations":200,"ar_internal_metadata":200,"articles":200}}
