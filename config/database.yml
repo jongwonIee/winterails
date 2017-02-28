@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: UTF8
+  database: cc_database
+  pool: 5
+  username: ubuntu
+  password: password
